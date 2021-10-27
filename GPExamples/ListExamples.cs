@@ -49,6 +49,8 @@
             {
                 Console.WriteLine(color);
             }
+
+            //Her sletter vi indholdet af vs listen
             vs.Clear();
             Console.WriteLine("Udskriver farver efter vi sletter vs liste");
             foreach (var color in animal1.StringList)
